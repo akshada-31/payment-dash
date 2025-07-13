@@ -1,0 +1,13 @@
+2025-07-11 21:08:07.158 IST [74581] LOG:  starting PostgreSQL 14.18 (Homebrew) on aarch64-apple-darwin24.4.0, compiled by Apple clang version 17.0.0 (clang-1700.0.13.3), 64-bit
+2025-07-11 21:08:07.160 IST [74581] LOG:  listening on IPv6 address "::1", port 5432
+2025-07-11 21:08:07.160 IST [74581] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-07-11 21:08:07.160 IST [74581] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-07-11 21:08:07.162 IST [74582] LOG:  database system was shut down at 2025-07-11 21:07:56 IST
+2025-07-11 21:08:07.165 IST [74581] LOG:  database system is ready to accept connections
+2025-07-11 21:22:25.483 IST [75897] ERROR:  database "payments_db" already exists
+2025-07-11 21:22:25.483 IST [75897] STATEMENT:  CREATE DATABASE payments_db;
+2025-07-12 12:08:59.745 IST [82040] FATAL:  database "akshadavaidya" does not exist
+2025-07-12 12:13:46.906 IST [82395] ERROR:  syntax error at or near "12346" at character 1
+2025-07-12 12:13:46.906 IST [82395] STATEMENT:  12346
+	SELECT * FROM "user";
+2025-07-12 20:06:47.013 IST [86818] FATAL:  database "akshadavaidya" does not exist
